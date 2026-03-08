@@ -53,12 +53,12 @@ Voici les tables principales :
      $host   = 'localhost';
      $dbname = 'php_exam_db';
      $user   = 'root';  // Changez si nécessaire
-     $pass   = 'root';  // Changez si nécessaire (souvent vide sur XAMPP)
+     $pass   = 'root';  // Changez si nécessaire
      ```
-   - Si votre mot de passe MySQL est différent, modifiez-le ici.
+   - Si ton mot de passe MySQL est différent, modifiez-le ici.
 
 4. **Démarrez le serveur** :
-   - Lancez Apache et MySQL via XAMPP ou équivalent.
+   - Lancez Apache et MySQL via XAMPP.
    - Accédez au site via `http://localhost/php_exam/home.php`.
 
 ### Utilisation
