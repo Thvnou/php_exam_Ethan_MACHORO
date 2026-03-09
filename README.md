@@ -15,7 +15,7 @@
 - **Validation de Commande** : Validez votre panier en entrant une adresse de livraison. Le système vérifie votre solde et met à jour le stock.
 
 ### Pour les Administrateurs
-- Accès à une page admin (actuellement vide, mais réservée pour de futures fonctionnalités comme gérer les utilisateurs ou articles).
+- Accès à une page admin.
 
 
 ## Structure de la Base de Données
@@ -42,13 +42,13 @@ Voici les tables principales :
 1. **Téléchargez ou clonez le projet** dans le dossier htdocs de votre serveur pour moi c'était `/xampp/htdocs/php_exam`.
 
 2. **Importez la base de données** :
-   - Ouvrez phpMyAdmin (ou votre outil MySQL).
-   - Créez une nouvelle base de données nommée `php_exam_db`.
-   - Importez le fichier `php_exam_db.sql` fourni.
+   - J'ai ouvert phpMyAdmin .
+   - Créer une nouvelle base de données nommée `php_exam_db`.
+   - Importer le fichier `php_exam_db.sql` fourni.
 
 3. **Configurez la connexion** :
-   - Ouvrez `config.php`.
-   - Vérifiez les paramètres de connexion :
+   - J'ai ouvert `config.php`.
+   - Vérifier les paramètres de connexion :
      ```php
      $host   = 'localhost';
      $dbname = 'php_exam_db';
@@ -58,15 +58,14 @@ Voici les tables principales :
    - Si ton mot de passe MySQL est différent, modifiez-le ici.
 
 4. **Démarrez le serveur** :
-   - Lancez Apache et MySQL via XAMPP.
-   - Accédez au site via `http://localhost/php_exam/home.php`.
+   - J'ai lancer Apache et MySQL via XAMPP.
+   - Accéder au site via `http://localhost/php_exam/home.php`.
 
 ### Utilisation
-- Allez sur `home.php` pour commencer.
+- Aller sur `home.php` pour commencer.
 - Inscrivez-vous ou connectez-vous.
-- Explorez les articles, vendez-en, ajoutez au panier, etc.
+- Explorer les articles, vendez-en, ajoutez au panier, etc.
 
-## Points à Améliorer (Notes d'Étudiant)
 
 
 ## Auteur
